@@ -1,1 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
+</head>
+<body>
+	 <div class="row" style="background-color:#9af">
+  <div class="col">
+  <h4>Liga1 </h4>
+  </div>
+  <div class="col">
+  <h4>liga2 </h4>
+  </div>
+  <div class="col">
+  <h4>liga3 </h4>
+  </div>
+  <div class="col">
+  <h4>liga4 </h4>
+  </div>
+  </div>
+	
+	
+<h4>Título</h4>
+	<template v-if="ok">
+  <p>V</p>
+  <p>Párrafo 2</p>
+</template>
+
+<div id="Mond">
+  <button v-on:click="counter *= 2, counter2 += 1"> Aumenta potencia </button>
+	<p>La nueva potencia de dos a la {{counter2}} </p>
+  <p>es {{ counter }}.</p>
+</div>
+
+<div id="per">{{ Triste }} </div>
+
+
+</p>
+</p>
+
+
+<div id= dif>
+	<h3>{{ Dificult }} </h3>
+<label>
+Facil: <input type="radio" v-model="difi" value="Facil">
+</label>
+<label> 
+	Normal: <input type="radio" v-model="difi" value="Normal">
+</label>
+<label>
+Heroica: <input type="radio" v-model="difi" value="Heroica">
+</label>
+<label> 
+Legendaria: <input type="radio" v-model="difi" value="Legendaria">
+</label>
+<script src="script.js"> </script>
+</div>
+
+
+
+
+	
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
